@@ -42,7 +42,7 @@ function Content() {
     <div className="w-full px-[14px] lg:px-[199px] pt-[34px] pb-[48px] flex flex-col gap-[18px] min-h-screen">
       <h2 className="text-2xl font-semibold">Resultados</h2>
 
-      <div className="flex flex-wrap sm:justify-between gap-[10px]">
+      <div className="flex flex-wrap justify-between gap-[10px]">
         {families?.map(family => (
           <Card family={family} />
         ))}
