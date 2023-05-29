@@ -9,10 +9,10 @@ function Card(props: CardProps) {
     <a href="#" className="w-max">
       <img
         src={`https://plugin-storage.nyc3.digitaloceanspaces.com/families/images/${props.family.id}.jpg`}
-        className="flex items-center justify-center bg-white w-[158px] lg:w-[176px] h-[157px] lg:h-[198px] border border-border border-b-0 rounded-t-lg"
+        className="flex items-center justify-center bg-white w-[138px] lg:w-[176px] h-[137px] lg:h-[198px] border border-border border-b-0 rounded-t-lg"
       />
 
-      <div className="w-[158px] lg:w-[176px] p-2 flex items-center justify-between gap-2 border border-border rounded-b-lg">
+      <div className="w-[138px] lg:w-[176px] p-2 flex items-center justify-between gap-2 border border-border rounded-b-lg">
         <p className="flex lg:hidden text-[10px] font-semibold w-full max-w-[128px]">
           {(
             props.family.details.name +
